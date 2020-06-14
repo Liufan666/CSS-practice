@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .x{
+            line-height: 20px;
+        }
+        .box1 {
+            width: 20%;
+            height: 600px;
+            float: left;
+            background: yellow;
+            border: gray 1px solid;
+            padding: 10px;
+            text-align: center;
+        }
+        .box3 {
+            width: 60%;
+            height: 600px;
+            float: left;
+            background: gray;
+            padding: 10px;
+            text-align: left;
+        }
+        hr {height: 2px;background-color: black;border: 0;}
+        img{
+            width: 100px;
+        }
+        ul {text-align: left;}
+    </style>
+</head>
+<body>
+<div class="x">
+    <div class="box1">
+        <img src="IMG_1696.jpg">
+<h1>个人信息</h1>
+<ul>
+<li>姓名：刘帆</li>
+<li>年龄：22</li>
+<li>性别：男</li>
+<li>籍贯：四川德阳</li>
+<li>民族：汉族</li>
+<li>qq：1663531467</li>
+<li>email：1663531467@qq.com</li>
+</ul>
+        
+    </div>
+    <div class="box3">
+       <h1>教育经历</h1><br/><hr/>
+        <p>
+        毕业学校 ：中南大学                      学历：本科
+        </p>
+       <h1>项目经验</h1><br/><hr/>
+<h2>动力环境监测系统</h2>
+<ul>
+<li>该项目旨在开发软硬件结合的环境监测系统。</li>
+<li>主要负责了日志管理、视频管理、告警管理等模块，用python语言Django框架对这几个模块的接口进行编写。</li>
+<li>与其他人一起最终实现了前端与数据库的数据交互、数据库与硬件的数据交互。</li>
+<li>项目完成后，硬件可以把温度、湿度等环境数据在数据库中进行更新，然后再由前端调取这些数据并显示在网页上，同样前端也可以通过接口对硬件传输指令控制硬件上的灯的开关。</li>
+</ul>
+<h2>大学生互联网+创新创业大赛</h2>
+<ul>
+<li>该项目旨在开发TEAM APP解决大学生竞赛组队难、信息获取不全等问题 ， 帮助大学生能够更方便更好地参与比赛并获取名次 ， 提高大学生的整体素质和竞争力。</li>
+<li>主要负责后台的开发和APP核心算法协同匹配过滤算法的设计和应用。</li>
+<li>通过阅读大量的论文和相关资料，解决了为用户进行队友匹配和感兴趣信息的准确提供的问题，通过用户的标签和历史浏览记录等进行协同过滤，相关匹配准确度高达90%。</li>
+<li>获得全国创新创业大赛国家级立项。</li>
+</ul>
+     
+    </div>
+    <div style="clear: both"></div>
+</div>
+</body>
+</html>
